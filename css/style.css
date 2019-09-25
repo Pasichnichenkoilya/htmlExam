@@ -1,0 +1,50 @@
+body
+{
+    background-color: #0C2732;
+}
+.logo-img
+{
+    display: flex;
+    border: 1px solid #000;
+    background-image: url("../img/top-logo.jpg");
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #0C2732;
+}
+.menu
+{
+    display: flex;
+    background-color: #133F50;
+    align-content: flex-start;
+    color: #fff;
+    list-style-type: none;
+}
+.menu>ul
+{
+    list-style: none;
+}
+.menu>ul>li
+{
+    display: inline-block;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.menu>ul>li:hover
+{
+    background-color: #226F8E;
+}
+.menu>ul>li>a:-webkit-any-link {
+    color: #FF6882;
+    cursor: pointer;
+    text-decoration: none;
+}
+#active-menu-item
+{
+    border-bottom: 3px solid #D01D4A;
+}
+.search
+{
+    padding: 0;
+    height: 25px;
+}
