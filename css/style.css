@@ -1,6 +1,6 @@
 body
 {
-    background-color: #0C2732;
+    background-color: #E2E2E2;
 }
 .logo-img
 {
@@ -15,7 +15,7 @@ body
 .menu
 {
     display: flex;
-    background-color: #133F50;
+    background-color: #333;
     align-content: flex-start;
     color: #fff;
     list-style-type: none;
@@ -35,7 +35,7 @@ body
     background-color: #226F8E;
 }
 .menu>ul>li>a:-webkit-any-link {
-    color: #FF6882;
+    color: #FFF;
     cursor: pointer;
     text-decoration: none;
 }
@@ -47,4 +47,32 @@ body
 {
     padding: 0;
     height: 25px;
+}
+
+.center-content
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.center-content div
+{
+    background-color: #ACACAC;
+    width: 40vh;
+}
+
+.left-container ol
+{
+    padding: 20px;
+}
+
+.left-container li
+{
+    margin: 5px;
+}
+
+.center-container img
+{
+    width: 100%;
 }
