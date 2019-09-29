@@ -1,0 +1,72 @@
+.recipe-img
+{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-block
+{
+    width: 80%;
+}
+
+.recipe-name
+{
+    display: flex;
+    justify-content: center;
+}
+
+.pizza-rules
+{
+    font-size: 20px;
+    padding: 10px;
+    list-style: none;
+}
+
+.pizza-rules-item
+{
+
+    margin: 5px 0;
+    border-left: 3px solid #37B5E7;
+    padding: 5px;
+}
+
+.pizza-rules-item:hover
+{
+    border-left: 3px solid #FF725F;
+}
+
+.ingridients
+{
+    font-size: 20px;
+}
+
+.ingridients ul
+{
+    list-style: none;
+}
+
+.cooking span
+{
+    font-weight: bold;
+}
+
+.cooking
+{
+    font-size: 20px;
+}
+
+.recipe-content
+{
+    height: 80%;
+}
+
+.up i:hover
+{
+    color: #C5DDE8;
+}
+
+.recipe-content
+{
+    padding: 20px;
+}

@@ -1,6 +1,6 @@
 body
 {
-    background-color: #E2E2E2;
+    background: linear-gradient(90deg, #EECFBA, #C5DDE8);
 }
 .logo-img
 {
@@ -45,7 +45,7 @@ body
 
 #active-menu-item
 {
-    border-bottom: 3px solid #D01D4A;
+    border-bottom: 3px solid #FF725F;;
 }
 
 .search
@@ -54,22 +54,22 @@ body
     height: 25px;
 }
 
-.center-content
+.content
 {
     margin-top: 10px;
     display: flex;
     justify-content: space-around;
+    min-height: 100vh;
 }
 
-.center-content h2
+.content h2
 {
     text-align: center;
     text-transform: uppercase;
 }
 
-.center-content div
+.content div
 {
-    background-color: #ACACAC;
     width: 30%;
 }
 
@@ -81,6 +81,13 @@ body
 .left-container li
 {
     margin: 5px;
+}
+
+.left-container a, .right-container a:-webkit-any-link
+{
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .center-container img
@@ -116,7 +123,7 @@ body
 
 .top-10 li:hover
 {
-    border-left: 5px solid #3CCE7B;
+    border-left: 5px solid #C5DDE8;
 }
 
 .new
@@ -129,4 +136,31 @@ body
 .new li:hover
 {
     border-left: 5px solid #CE3C3C;
+}
+
+.footer
+{
+    margin-top: 40px;
+    background-color: #0C2732;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer a:-webkit-any-link
+{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer a:hover
+{
+    text-decoration: underline;
+}
+
+.footer>p:hover
+{
+    color: #FF725F;
 }

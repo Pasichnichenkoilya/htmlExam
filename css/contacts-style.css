@@ -1,0 +1,25 @@
+.content
+{
+    display: flex;
+    align-content: space-between;
+}
+
+.info ul
+{
+    list-style: none;
+}
+
+.info i
+{
+    font-size: 50px;
+}
+
+.map img
+{
+    width: 100%;
+}
+
+.content div
+{
+    width: 40%;
+}
