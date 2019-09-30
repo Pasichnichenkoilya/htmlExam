@@ -7,11 +7,17 @@
 .info ul
 {
     list-style: none;
+    margin-top: 20px;
 }
 
 .info i
 {
     font-size: 50px;
+}
+
+.info li:hover
+{
+    color: #99D7DB;
 }
 
 .map img
@@ -22,4 +28,18 @@
 .content div
 {
     width: 40%;
+    margin: 5px;
+}
+
+.email-letter input, textarea
+{
+    margin: 20px 0 0 40px;
+    height: 20px;
+    width: 80%
+}
+
+#message
+{
+    resize: none;
+    height: 100px;
 }
